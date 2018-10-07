@@ -1,20 +1,19 @@
 {
-    "name": "@s-isabella/ts-utils",
-    "version": "0.0.10",
-    "description": "Usefull typescript helpers",
-    "main": "src/index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://gitlab.com/isabella.skorepova/isa-scripts.git"
-    },
-    "author": "Isabella Skořepová <isabella@skorepova.info>",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://gitlab.com/isabella.skorepova/isa-scripts/issues"
-    },
-    "homepage": "https://gitlab.com/isabella.skorepova/isa-scripts#readme",
-    "publishConfig": {
-      "access": "public"
-    }
+  "name": "@s-isabella/ts-utils",
+  "version": "0.0.11",
+  "description": "Usefull typescript helpers",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/isabella.skorepova/isa-scripts.git"
+  },
+  "author": "Isabella Skořepová <isabella@skorepova.info>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/isabella.skorepova/isa-scripts/issues"
+  },
+  "homepage": "https://gitlab.com/isabella.skorepova/isa-scripts#readme",
+  "publishConfig": {
+    "access": "public"
   }
-  
+}
