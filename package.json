@@ -1,6 +1,6 @@
 {
   "name": "@s-isabella/ts-utils",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Usefull typescript helpers",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -18,7 +18,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@s-isabella/scripts-backend": "^0.0.12"
+    "@s-isabella/scripts-backend": "^0.0.13"
   },
   "scripts": {
     "prepare": "isa-scripts-backend build-typedefs"
