@@ -17,7 +17,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
+  "devDependencies": {
     "@s-isabella/scripts-backend": "^0.0.13"
   },
   "scripts": {
