@@ -3,3 +3,5 @@ export type AllPropertiesExcept<T, E> = {
 }[keyof T]
 
 export type PickExcept<T, E> = Pick<T, AllPropertiesExcept<T, E>>
+
+export const notNull = <T extends Object>(_: T | null): _ is T => _ !== null
