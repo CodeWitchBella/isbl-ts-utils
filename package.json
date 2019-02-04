@@ -1,5 +1,5 @@
 {
-  "name": "@s-isabella/ts-utils",
+  "name": "@codewitchbella/ts-utils",
   "version": "0.1.6",
   "description": "Usefull typescript helpers",
   "main": "build/index.js",
@@ -18,7 +18,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@s-isabella/scripts-backend": "^0.1.4"
+    "@codewitchbella/scripts-backend": "^0.1.4"
   },
   "scripts": {
     "prepare": "isa-scripts-backend build-typedefs"
