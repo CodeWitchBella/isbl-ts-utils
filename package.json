@@ -2,25 +2,29 @@
   "name": "@codewitchbella/ts-utils",
   "version": "0.1.7",
   "description": "Usefull typescript helpers",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "dist/index.js",
+  "umd:main": "dist/inex.umd.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/isabella.skorepova/isa-scripts.git"
+    "url": "git+https://gitlab.com/codewitchbella/isa-scripts.git"
   },
   "author": "Isabella Skořepová <isabella@skorepova.info>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/isabella.skorepova/isa-scripts/issues"
+    "url": "https://gitlab.com/codewitchbella/isa-scripts/issues"
   },
-  "homepage": "https://gitlab.com/isabella.skorepova/isa-scripts#readme",
+  "homepage": "https://gitlab.com/codewitchbella/isa-scripts#readme",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@codewitchbella/scripts-backend": "^0.1.5"
+    "@codewitchbella/scripts-backend": "^0.1.5",
+    "microbundle": "^0.9.0"
   },
   "scripts": {
-    "prepare": "isa-scripts-backend build-typedefs"
+    "prepare": "microbundle --target node"
   }
 }
