@@ -3,8 +3,6 @@
   "version": "0.1.8",
   "description": "Usefull typescript helpers",
   "main": "dist/index.js",
-  "umd:main": "dist/inex.umd.js",
-  "module": "dist/index.mjs",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "repository": {
@@ -22,7 +20,7 @@
   },
   "devDependencies": {
     "@codewitchbella/scripts-backend": "^0.2.0",
-    "@codewitchbella/microbundle": "^0.9.2"
+    "@codewitchbella/microbundle": "^0.9.3"
   },
   "scripts": {
     "prepare": "microbundle --target node"
