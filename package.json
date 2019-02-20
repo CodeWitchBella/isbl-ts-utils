@@ -1,6 +1,6 @@
 {
   "name": "@codewitchbella/ts-utils",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Usefull typescript helpers",
   "main": "dist/index.js",
   "source": "src/index.ts",
