@@ -8,14 +8,15 @@ export const notNull = <T extends Object>(_: T | null): _ is T => _ !== null
 
 export type ArrayElement<T extends any[]> = T extends (infer E)[] ? E : never
 
-export type NullableProperties<T> = {
-  [K in keyof T]: T[K] extends null ? K : never
-}[keyof T]
-export type NonNullableProperties<T> = {
-  [K in keyof T]: T[K] extends null ? never : K
+export declare type NullableKeys<T> = {
+  [K in keyof T]: null extends T[K] ? K : never
 }[keyof T]
 
-export type NullToOptional<T> = {
-  [k in keyof Pick<T, NullableProperties<T>>]?: T[k]
+export declare type NonNullableKeys<T> = {
+  [K in keyof T]: null extends T[K] ? never : K
+}[keyof T]
+
+export declare type NullToOptional<T> = {
+  [k in NullableKeys<T>]?: T[k] | undefined
 } &
-  { [k in keyof Pick<T, NonNullableProperties<T>>]: T[k] }
+  { [k in NonNullableKeys<T>]: T[k] }
