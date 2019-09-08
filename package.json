@@ -4,6 +4,7 @@
   "description": "Usefull typescript helpers",
   "main": "dist/index.js",
   "source": "src/index.ts",
+  "module": "src/index.mjs",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
