@@ -14,7 +14,7 @@ again.
 Equivalent to `a => a !== null`, but also works as type assertion. Usage example:
 
 ```ts
-function doStuff(input: number[]) {
+function removeTwos(input: number[]) {
   return input.map(item => item === 2 ? null : item).filter(notNull)
 }
 ```
