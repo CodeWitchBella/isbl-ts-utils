@@ -1,29 +1,22 @@
 {
-  "name": "@codewitchbella/ts-utils",
+  "name": "@isbl/ts-utils",
   "version": "0.2.0",
-  "description": "Usefull typescript helpers",
-  "main": "dist/index.js",
-  "source": "src/index.ts",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/codewitchbella/isa-scripts.git"
-  },
+  "description": "Useful typescript helpers",
+  "exports": "./dist/ts-utils.esm.js",
+  "types": "dist/ts-utils.d.ts",
   "author": "Isabella Skořepová <isabella@skorepova.info>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://gitlab.com/codewitchbella/isa-scripts/issues"
-  },
-  "homepage": "https://gitlab.com/codewitchbella/isa-scripts#readme",
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": false,
   "devDependencies": {
-    "@codewitchbella/microbundle": "^0.11.1",
-    "@codewitchbella/scripts-backend": "^0.3.0"
+    "@isbl/publisher": "^0.7.1",
+    "microbundle": "^0.13.3",
+    "typescript": "^4.4.2"
   },
   "scripts": {
-    "prepare": "microbundle --target node"
-  }
+    "prepare": "microbundle --target node -f esm"
+  },
+  "files": [
+    "README.md",
+    "dist"
+  ]
 }
