@@ -21,3 +21,13 @@ function removeTwos(input: number[]) {
 
 Return type of this function is `number[]`, not `(number | null)[]` as it would
 be otherwise.
+
+## ArrayElement
+
+Generic type which given array type returns its element. More readable
+alternative to `ArrayType[0]`, except that it also checks if incoming type is an
+array. Works for readonly arrays.
+
+```ts
+type Thing = ArrayElement<string[]> // thing is string
+```
