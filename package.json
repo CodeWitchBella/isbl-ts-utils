@@ -1,6 +1,6 @@
 {
   "name": "@isbl/ts-utils",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Useful typescript helpers",
   "exports": "./dist/ts-utils.esm.js",
   "types": "dist/ts-utils.d.ts",
