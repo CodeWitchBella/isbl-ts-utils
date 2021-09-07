@@ -3,8 +3,8 @@
 [![MIT License](https://img.shields.io/npm/l/@isbl/ts-utils?style=flat)](https://github.com/CodeWitchBella/isbl-ts-utils/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/@isbl/ts-utils?style=flat)](https://www.npmjs.com/package/@isbl/ts-utils)
 [![dependencies](https://img.shields.io/librariesio/release/npm/@isbl/ts-utils?style=flat)](https://github.com/CodeWitchBella/isbl-ts-utils/blob/main/package.json)
-![GitHub last commit](https://img.shields.io/github/last-commit/CodeWitchBella/isbl-ts-utils?style=flat)
-[![GitHub Release Date](https://img.shields.io/github/release-date/CodeWitchBella/isbl-ts-utils?style=flat)](https://github.com/CodeWitchBella/isbl-ts-utils/releases)
+![](https://img.shields.io/github/last-commit/CodeWitchBella/isbl-ts-utils?style=flat)
+[![Releases](https://img.shields.io/github/release-date/CodeWitchBella/isbl-ts-utils?style=flat)](https://github.com/CodeWitchBella/isbl-ts-utils/releases)
 
 Few utils for working in typescript which I found myself writing over and over
 again.
