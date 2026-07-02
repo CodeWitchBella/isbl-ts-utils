@@ -18,7 +18,7 @@
   "scripts": {
     "prepare": "tsdown src/ts-utils.ts --format esm --dts --out-dir dist",
     "prepublishOnly": "isbl-publisher prepublishOnly",
-    "publish:npm": "isbl-publisher publish --no-draft"
+    "publish:npm": "env npm_package_repository_url=https://github.com/CodeWitchBella/isbl-ts-utils.git isbl-publisher publish --no-draft"
   },
   "files": [
     "dist"
