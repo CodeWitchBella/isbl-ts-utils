@@ -2,7 +2,10 @@
   "name": "@isbl/ts-utils",
   "version": "1.0.1",
   "description": "Useful typescript helpers",
-  "exports": "./dist/ts-utils.esm.js",
+  "exports": {
+    "types": "./dist/ts-utils.d.ts",
+    "default": "./dist/ts-utils.esm.js"
+  },
   "types": "dist/ts-utils.d.ts",
   "author": "Isabella Skořepová <isabella@skorepova.info>",
   "license": "MIT",
